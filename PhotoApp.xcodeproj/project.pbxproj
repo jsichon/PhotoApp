@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4507FFC41CBDD4450093EC20 /* Karla-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4507FFC21CBDD4450093EC20 /* Karla-Bold.ttf */; };
+		4507FFC51CBDD4450093EC20 /* Karla-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4507FFC31CBDD4450093EC20 /* Karla-Regular.ttf */; };
 		456938DD1C8FA81E003A3AF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456938DC1C8FA81E003A3AF8 /* AppDelegate.swift */; };
-		456938DF1C8FA81E003A3AF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456938DE1C8FA81E003A3AF8 /* ViewController.swift */; };
+		456938DF1C8FA81E003A3AF8 /* onBoardingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456938DE1C8FA81E003A3AF8 /* onBoardingController.swift */; };
 		456938E21C8FA81E003A3AF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456938E01C8FA81E003A3AF8 /* Main.storyboard */; };
 		456938E41C8FA81E003A3AF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456938E31C8FA81E003A3AF8 /* Assets.xcassets */; };
 		456938E71C8FA81E003A3AF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456938E51C8FA81E003A3AF8 /* LaunchScreen.storyboard */; };
+		456938EF1C8FABC6003A3AF8 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456938EE1C8FABC6003A3AF8 /* CameraViewController.swift */; };
+		456938F11C8FABD6003A3AF8 /* CameraRollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456938F01C8FABD6003A3AF8 /* CameraRollViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4507FFC21CBDD4450093EC20 /* Karla-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Karla-Bold.ttf"; path = "../../../../../../Library/Fonts/Karla-Bold.ttf"; sourceTree = "<group>"; };
+		4507FFC31CBDD4450093EC20 /* Karla-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Karla-Regular.ttf"; path = "../../../../../../Library/Fonts/Karla-Regular.ttf"; sourceTree = "<group>"; };
 		456938D91C8FA81E003A3AF8 /* PhotoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		456938DC1C8FA81E003A3AF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		456938DE1C8FA81E003A3AF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		456938DE1C8FA81E003A3AF8 /* onBoardingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onBoardingController.swift; sourceTree = "<group>"; };
 		456938E11C8FA81E003A3AF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		456938E31C8FA81E003A3AF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		456938E61C8FA81E003A3AF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		456938E81C8FA81E003A3AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		456938EE1C8FABC6003A3AF8 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		456938F01C8FABD6003A3AF8 /* CameraRollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraRollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4507FFBF1CBDD2280093EC20 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4507FFC21CBDD4450093EC20 /* Karla-Bold.ttf */,
+				4507FFC31CBDD4450093EC20 /* Karla-Regular.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		456938D01C8FA81D003A3AF8 = {
 			isa = PBXGroup;
 			children = (
@@ -55,9 +72,12 @@
 			isa = PBXGroup;
 			children = (
 				456938DC1C8FA81E003A3AF8 /* AppDelegate.swift */,
-				456938DE1C8FA81E003A3AF8 /* ViewController.swift */,
+				456938DE1C8FA81E003A3AF8 /* onBoardingController.swift */,
+				456938EE1C8FABC6003A3AF8 /* CameraViewController.swift */,
+				456938F01C8FABD6003A3AF8 /* CameraRollViewController.swift */,
 				456938E01C8FA81E003A3AF8 /* Main.storyboard */,
 				456938E31C8FA81E003A3AF8 /* Assets.xcassets */,
+				4507FFBF1CBDD2280093EC20 /* Fonts */,
 				456938E51C8FA81E003A3AF8 /* LaunchScreen.storyboard */,
 				456938E81C8FA81E003A3AF8 /* Info.plist */,
 			);
@@ -125,7 +145,9 @@
 			files = (
 				456938E71C8FA81E003A3AF8 /* LaunchScreen.storyboard in Resources */,
 				456938E41C8FA81E003A3AF8 /* Assets.xcassets in Resources */,
+				4507FFC51CBDD4450093EC20 /* Karla-Regular.ttf in Resources */,
 				456938E21C8FA81E003A3AF8 /* Main.storyboard in Resources */,
+				4507FFC41CBDD4450093EC20 /* Karla-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +158,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				456938DF1C8FA81E003A3AF8 /* ViewController.swift in Sources */,
+				456938DF1C8FA81E003A3AF8 /* onBoardingController.swift in Sources */,
 				456938DD1C8FA81E003A3AF8 /* AppDelegate.swift in Sources */,
+				456938F11C8FABD6003A3AF8 /* CameraRollViewController.swift in Sources */,
+				456938EF1C8FABC6003A3AF8 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +311,7 @@
 				456938ED1C8FA81E003A3AF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
